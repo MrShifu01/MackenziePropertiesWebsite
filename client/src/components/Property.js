@@ -44,7 +44,7 @@ const Property = () => {
             <h2 className="fw-bold">Rhodesdene</h2>
             <FontAwesomeIcon icon={faMapLocation} />{" "}
             <span className="text-muted opacity-75">
-              Kimberley, Northern Cape
+              24 Barkley Ave, Kimberley, Northern Cape, 8301
             </span>
           </div>
           <div className="col-6">

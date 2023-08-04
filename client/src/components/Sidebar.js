@@ -1,47 +1,65 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalendarDays,
+  faCity,
+  faHome,
+  faShop,
+} from "@fortawesome/free-solid-svg-icons";
+
 const Sidebar = () => {
   return (
-    <nav id="sidebar">
-    <div class="sidebarHeader">
-        <img src="logo.png" width={'200px'} alt="Mackenzie Properties Logo" />
-    </div>
+    <nav
+      id="sidebar"
+      className="nav d-flex flex-column justify-content-center align-items-center"
+    >
+      <div className="sidebarHeader">
+        <img src="logo.png" width={"200px"} alt="Mackenzie Properties Logo" />
+      </div>
 
-    <ul class="list-unstyled components">
-        <p>Sidebar Headings</p>
-        <li class="active">
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="#">Link 1</a>
-                </li>
-                <li>
-                    <a href="#">Link 2</a>
-                </li>
-                <li>
-                    <a href="#">Link 3</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="#">About</a>
-        </li>
-        <li>
-            <a href="#servicesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Services</a>
-            <ul class="collapse list-unstyled" id="servicesSubmenu">
-                <li>
-                    <a href="#">Service 1</a>
-                </li>
-                <li>
-                    <a href="#">Service 2</a>
-                </li>
-                <li>
-                    <a href="#">Service 3</a>
-                </li>
-            </ul>
-            <a href="#">Contact Us</a>
-        </li>
-    </ul>
-</nav>
-  )
-}
+        {/* Main Sidebar List */}
+        <ul className="list-unstyled">
+          <li className="sidebar-item sidebar-active">
+            <FontAwesomeIcon icon={faHome} className="sidebar-icon me-2" />
+            <a href="#forsale"> For Sale</a>
+          </li>
+          <li className="sidebar-item">
+            <FontAwesomeIcon
+              icon={faCalendarDays}
+              className="sidebar-icon me-2"
+            />
+            <a href="#torent"> To Rent</a>
+          </li>
+          <li className="sidebar-item">
+            <FontAwesomeIcon icon={faShop} className="sidebar-icon me-2" />
+            <a href="#commercial"> Commercial</a>
+          </li>
+          <li className="sidebar-item">
+            <FontAwesomeIcon icon={faCity} className="sidebar-icon me-2" />
+            <a href="#developments"> Developments</a>
+          </li>
+        </ul>
 
-export default Sidebar
+        {/* Sidebar Footer */}
+        <div className="justify-content-end">
+          <ul className="list-unstyled">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Us</a>
+            </li>
+            <li>
+              <a href="#privacy">Privacy Policy</a>
+            </li>
+          </ul>
+          <div className="sidebar-footer">
+            <p className="text-center text-muted">
+              &copy; 2021 Mackenzie Properties
+            </p>
+          </div>
+        </div>
+    </nav>
+  );
+};
+
+export default Sidebar;

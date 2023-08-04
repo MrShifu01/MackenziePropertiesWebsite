@@ -13,3 +13,27 @@ body {
 .suburb {
     font-size: 0.75rem;
 }
+
+.sidebar-item {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.sidebar-item a,
+.sidebar-item .sidebar-icon {
+    text-decoration: none;
+    color: #000; /* Sets the color of text and icons to black */
+}
+
+.sidebar-active {
+    background-color: #096837;
+}
+
+.sidebar-active a,
+.sidebar-active .sidebar-icon {
+    color: #fff; /* Sets the color of text and icons in .sidebar-active to white */
+}
+
+
+
