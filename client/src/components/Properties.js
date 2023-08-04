@@ -4,8 +4,8 @@ const Properties = () => {
   return (
     <div>
       <div className="d-flex justify-content-end align-items-center pt-5">
-        <h3 className="text-primary me-2 pt-2 fs-5">Suburb: </h3>
-        <select className="btn btn-primary">
+        <h3 className="text-black me-2 pt-2 fs-5">Suburb: </h3>
+        <select className="btn btn-secondary">
           <option value="all">All</option>
           <option value="royldene">Royldene</option>
           <option value="rhodesdene">Rhodesdene</option>
@@ -14,7 +14,7 @@ const Properties = () => {
       </div>
       <div className="d-flex flex-column gap-2 justify-content-center align-items-center pt-5">
         <PropertyCard />
-        <PropertyCard />
+        <PropertyCard active='active' />
         <PropertyCard />
         <PropertyCard />
         <PropertyCard />

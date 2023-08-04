@@ -48,21 +48,21 @@ const Property = () => {
             </span>
           </div>
           <div className="col-6">
-            <button className="btn btn-primary btn-lg float-end mt-4 rounded-5">
+            <button className="btn btn-secondary btn float-end mt-4 rounded-5">
               Book a Tour
             </button>
           </div>
         </div>
         <hr className=" mx-auto" />
         {/* Icons */}
-        <div className="row w-75 ms-5 d-flex justify-content-around">
+        <div className="row ms-5 d-flex justify-content-evenly">
           <div className="col-3">
             <div className="d-flex align-items-center gap-3">
-              <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
+              <span className="fa-stack fa-lg">
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-info" />
                 <FontAwesomeIcon
                   icon={faBed}
-                  className="fa-stack-1x text-black"
+                  className="fa-stack-1x text-white"
                 />
               </span>
               <h2 className="mt-1">3</h2>
@@ -70,11 +70,11 @@ const Property = () => {
           </div>
           <div className="col-3">
             <div className="d-flex align-items-center gap-3">
-              <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
+              <span className="fa-stack fa-lg">
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-info" />
                 <FontAwesomeIcon
                   icon={faBath}
-                  className="fa-stack-1x text-black"
+                  className="fa-stack-1x text-white"
                 />
               </span>
               <h2 className="mt-1">1</h2>
@@ -82,26 +82,26 @@ const Property = () => {
           </div>
           <div className="col-3">
             <div className="d-flex align-items-center gap-3">
-              <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
+              <span className="fa-stack fa-lg">
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-info" />
                 <FontAwesomeIcon
                   icon={faCarSide}
-                  className="fa-stack-1x text-black"
+                  className="fa-stack-1x text-white"
                 />
               </span>
               <h2 className="mt-1">2</h2>
             </div>
           </div>
           <div className="col-3">
-            <div className="d-flex align-items-center gap-3">
-              <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
+            <div className="d-flex align-items-center">
+              <span className="fa-stack fa-lg">
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-info" />
                 <FontAwesomeIcon
                   icon={faAreaChart}
-                  className="fa-stack-1x text-black"
+                  className="fa-stack-1x text-white"
                 />
               </span>
-              <h2 className="mt-1">1500m</h2>
+                <h2 className="mt-1">1500m</h2>
             </div>
           </div>
         </div>
