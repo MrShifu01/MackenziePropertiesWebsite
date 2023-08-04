@@ -53,16 +53,16 @@ const Property = () => {
             </button>
           </div>
         </div>
-        <hr className="w-75 mx-auto" />
+        <hr className=" mx-auto" />
         {/* Icons */}
         <div className="row w-75 ms-5 d-flex justify-content-around">
           <div className="col-3">
             <div className="d-flex align-items-center gap-3">
               <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
                 <FontAwesomeIcon
                   icon={faBed}
-                  className="fa-stack-1x text-white"
+                  className="fa-stack-1x text-black"
                 />
               </span>
               <h2 className="mt-1">3</h2>
@@ -71,10 +71,10 @@ const Property = () => {
           <div className="col-3">
             <div className="d-flex align-items-center gap-3">
               <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
                 <FontAwesomeIcon
                   icon={faBath}
-                  className="fa-stack-1x text-white"
+                  className="fa-stack-1x text-black"
                 />
               </span>
               <h2 className="mt-1">1</h2>
@@ -83,10 +83,10 @@ const Property = () => {
           <div className="col-3">
             <div className="d-flex align-items-center gap-3">
               <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
                 <FontAwesomeIcon
                   icon={faCarSide}
-                  className="fa-stack-1x text-white"
+                  className="fa-stack-1x text-black"
                 />
               </span>
               <h2 className="mt-1">2</h2>
@@ -95,17 +95,17 @@ const Property = () => {
           <div className="col-3">
             <div className="d-flex align-items-center gap-3">
               <span className="fa-stack">
-                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x" />
+                <FontAwesomeIcon icon={faCircle} className="fa-stack-2x text-secondary" />
                 <FontAwesomeIcon
                   icon={faAreaChart}
-                  className="fa-stack-1x text-white"
+                  className="fa-stack-1x text-black"
                 />
               </span>
               <h2 className="mt-1">1500m</h2>
             </div>
           </div>
         </div>
-        <hr className="w-75 mx-auto" />
+        <hr className="mx-auto" />
         {/* Description */}
         <div className="row ms-5">
           <div className="col-10">
