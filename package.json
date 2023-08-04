@@ -1,0 +1,14 @@
+{
+  "name": "mackenziepropertieswebsite",
+  "version": "1.0.0",
+  "description": "Real estate Dashboard Style Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stander Development",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
