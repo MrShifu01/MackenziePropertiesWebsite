@@ -5,21 +5,21 @@ import FilterBar from "../components/FilterBar";
 
 const HomePage = () => {
   return (
-    <div className="row vh-100">
-      <div className="col-lg-2 border">
+    <div className="row" >
+      <div className="col-lg-2 border" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
         <Sidebar />
       </div>
-      <div className="col-lg-10">
+      <div className="col-lg-10" style={{ maxHeight: '100vh' }}>
         <div className="row filter-row">
           <div className="col-12">
             <FilterBar />
           </div>
         </div>
-        <div className="row vh-100">
-          <div className="col-lg-4 border">
+        <div className="row">
+          <div className="col-lg-4 border-0 border-top" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
             <Properties />
           </div>
-          <div className="col-lg-8 border">
+          <div className="col-lg-8 border-0 border-top" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
             <Property />
           </div>
         </div>
